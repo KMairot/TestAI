@@ -35,7 +35,7 @@ jupyter notebook
 Open the notebook of your choice : 
 1. demo_cnn_vote.ipynb (CNN+vote)
 
-2.demo_moe.ipynb (MoE)
+2. demo_moe.ipynb (MoE)
 
 3. demo_hybrid.ipynb (hybride) and click Run All.
 
