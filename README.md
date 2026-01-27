@@ -32,8 +32,12 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
+Open the notebook of your choice : 
+1. demo_cnn_vote.ipynb (CNN+vote)
 
-Open demo_inference.ipynb and click Run All.
+2.demo_moe.ipynb (MoE)
+
+3. demo_hybrid.ipynb (hybride) and click Run All.
 
 The notebook will:
 
