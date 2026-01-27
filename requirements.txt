@@ -1,0 +1,18 @@
+# Core
+numpy
+pandas
+pillow
+tqdm
+requests
+
+# Deep learning
+torch
+torchvision
+
+# Notebook + plots
+jupyter
+matplotlib
+
+# Utils (often needed in OCT pipelines)
+scikit-learn
+opencv-python
