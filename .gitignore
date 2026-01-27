@@ -1,0 +1,12 @@
+# downloaded weights / outputs
+weights/
+outputs/
+
+# notebooks
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+env/
