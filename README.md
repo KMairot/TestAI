@@ -59,7 +59,7 @@ The notebook will:
 
 2. run inference on your OCT slices
 
-3. save outputs/predictions_<model>.csv
+3. save outputs/predictions_{model}.csv
 
 ---
 
