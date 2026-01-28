@@ -62,12 +62,13 @@ Because these filenames are **directly produced by OCT-Converter from `.E2E` fil
 Create a folder (e.g. `E2E_ROOT/`) with subfolders named exactly like the labels:
 
 E2E_ROOT/
-CHM/
-*.E2E
-Healthy/
-*.E2E
-USH2A/
-*.E2E
+  CHM/
+    *.E2E
+  Healthy/
+    *.E2E
+  USH2A/
+    *.E2E
+
 
 
 ### 2) Convert `.E2E` to PNGs (224×224, 19 slices) using our script
