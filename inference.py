@@ -76,9 +76,9 @@ def run_inference(
     if weights_path is None:
         # Conventional filenames (adjust if you rename checkpoints)
         default_map = {
-            "cnn_vote": "cnn_resnet50_2025-10-20_best.pt",
-            "moe": "cnn_resnet50_2025-11-09_best.pt",
-            "hybrid": "hybrid_resnet50_xformer_2025-11-24_best.pt",
+           "cnn_vote": "cnn_resnet50_2025-10-20_best.pt",
+    "moe": "cnn_resnet50_MOE_2025-11-09_best.pt",
+    "hybrid": "hybrid_resnet50_xformer_2025-11-04_best.pt",
         }
         weights_path = Path("weights") / default_map[model_name]
     weights_path = Path(weights_path)
