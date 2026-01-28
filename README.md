@@ -9,6 +9,20 @@ This repo lets you run **inference** on macular OCT volumes with 3 models:
 
 ---
 
+> **No Git? (Windows/macOS/Linux)**
+>
+> If you don't have `git` installed, you can download the repository as a ZIP:
+> 1. Go to this page: https://github.com/KMairot/TestAI
+> 2. Click **Code** → **Download ZIP**
+> 3. Unzip it somewhere on your computer
+> 4. Open a terminal **inside** the unzipped `TestAI` folder (the one containing `README.md`, `tools/`, `models/`, etc.)
+> 5. Then run:
+> ```bash
+> pip install -r requirements.txt
+> jupyter notebook
+> ```
+
+
 ## 0) What you need
 - Python 3.10+  
 - (Recommended) a GPU with CUDA; CPU works too (slower)
@@ -61,6 +75,7 @@ Because these filenames are **directly produced by OCT-Converter from `.E2E` fil
 ### 1) Put your `.E2E` files in label folders
 Create a folder (e.g. `E2E_ROOT/`) with subfolders named exactly like the labels:
 
+```text
 E2E_ROOT/
   CHM/
     *.E2E
@@ -68,6 +83,7 @@ E2E_ROOT/
     *.E2E
   USH2A/
     *.E2E
+```
 
 
 
